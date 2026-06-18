@@ -1,0 +1,36 @@
+# Build artifacts
+**/MDK-ARM/*/
+*.o
+*.d
+*.crf
+*.htm
+*.lnp
+*.map
+*.sct
+*.dep
+*.axf
+*.hex
+*.bin
+*.lst
+
+# Keil user-specific files
+*.uvguix.*
+*.uvoptx
+*.uvgui.*
+
+# Project-specific generated files
+**/RTE/
+**/DebugConfig/
+**/Objects/
+**/Listings/
+
+# Editor/IDE files
+.vscode/
+.history/
+*.log
+*.lock
+
+# Temporary files
+*.bak
+*.tmp
+*.orig
